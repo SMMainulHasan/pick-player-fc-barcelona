@@ -1,0 +1,9 @@
+.format{
+    text-align: center;
+    border: 1px solid red;
+}
+.format img{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid White;
+}

@@ -1,5 +1,4 @@
 .header{
-    margin: 0 50px;
     line-height: 30px;
     background-color: black;
 }
@@ -10,6 +9,7 @@
 .logo{
     display: flex;
     align-items: center;
+    margin-left: 100px;
 }
 .logo h1{
     margin-left: 10px;

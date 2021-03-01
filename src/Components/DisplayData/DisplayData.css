@@ -1,0 +1,16 @@
+.players-list{
+    width: 530px;
+    height: 600px;
+    overflow: scroll;
+    
+}
+.display-Data{
+    margin: 10px 80px;
+    display: flex;
+}
+.field{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    background-image: url("../../Images/field.png");
+}
