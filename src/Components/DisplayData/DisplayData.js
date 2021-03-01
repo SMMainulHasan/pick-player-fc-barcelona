@@ -13,17 +13,19 @@ const DisplayData = () => {
         setTeamPlayer(newTeam);
     };
     return (
-        <div className= "display-Data">
-            <div className= "players-list">
-                {
-                    playersData.map(player => <PlayerCard playerData={player} key={player.id} addToTeamEvent={addToTeamEvent}></PlayerCard>)
-                }
+        <div className="display-Data">
+            <div className="master">
+                <div className="players-list">
+                    {
+                        playersData.map(player => <PlayerCard playerData={player} key={player.id} addToTeamEvent={addToTeamEvent}></PlayerCard>)
+                    }
+                </div>
             </div>
             <div>
                 <Team teamPlayer={teamPlayer}></Team>
             </div>
             <div className="field">
-            <FieldFormat teamPlayer={teamPlayer}></FieldFormat>
+                <FieldFormat teamPlayer={teamPlayer}></FieldFormat>
             </div>
         </div>
     );

@@ -7,11 +7,11 @@
   "position": "Forward"
 }, {
   "id": 2,
-  "name": "Neymar",
-  "email": "neymar@lycos.com",
-  "image": "https://img.uefa.com/imgml/TP/players/1/2021/324x324/250039508.jpg?imwidth=5000%205000w",
-  "salary": "50165964",
-  "position": "Forward"
+  "name": "Manuel Neuer",
+  "email": "manuelneuer@behance.net",
+  "image": "https://img.uefa.com/imgml/TP/players/1/2021/324x324/97923.jpg?imwidth=5000 5000w",
+  "salary": "646544832",
+  "position": "Goalkeeper"
 }, {
   "id": 3,
   "name": "Cristiano Ronaldo",
@@ -77,11 +77,11 @@
   "position": "Forward"
 }, {
   "id": 12,
-  "name": "Manuel Neuer",
-  "email": "manuelneuer@behance.net",
-  "image": "https://img.uefa.com/imgml/TP/players/1/2021/324x324/97923.jpg?imwidth=5000 5000w",
-  "salary": "646544832",
-  "position": "Goalkeeper"
+  "name": "Neymar",
+  "email": "neymar@lycos.com",
+  "image": "https://img.uefa.com/imgml/TP/players/1/2021/324x324/250039508.jpg?imwidth=5000%205000w",
+  "salary": "50165964",
+  "position": "Forward"
 }, {
   "id": 13,
   "name": "Ángel Di María",

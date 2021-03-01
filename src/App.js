@@ -4,7 +4,7 @@ import DisplayData from './Components/DisplayData/DisplayData';
 
 function App() {
   return (
-    <div>
+    <div className="body">
       <Header></Header>
       <DisplayData></DisplayData>
     </div>

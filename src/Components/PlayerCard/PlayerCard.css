@@ -6,12 +6,12 @@
     border: 3px solid rgb(240, 237, 237);
 }
 .player-card{
-    background-color: gray;
+    background-color: #7a7d84;
     border-radius: 10px;
     padding: 10px 15px;
     margin: 10px 10px;
     display: flex;
-    width: 400px;
+    width: 450px;
 }
 .player-card h3{
     color: blanchedalmond;

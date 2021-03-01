@@ -1,14 +1,24 @@
 .players-list{
-    width: 530px;
+    padding-right: 20px;
+    width: 500px;
     height: 600px;
     overflow: scroll;
-    
+    overflow-x: hidden;
+
+    /* border: 1px solid red; */
+}
+.master{
+    width: 480px;
+    overflow: hidden;
+    /* border: 1px solid greenyellow; */
 }
 .display-Data{
     margin: 10px 80px;
     display: flex;
+    
 }
 .field{
+    margin-left: 5px;
     width: 400px;
     height: 600px;
     border-radius: 10px;
