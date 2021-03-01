@@ -7,10 +7,17 @@ import Team from '../Team/Team';
 import './DisplayData.css';
 
 const DisplayData = () => {
-    const [teamPlayer, setTeamPlayer] = useState([])
+    const [teamPlayer, setTeamPlayer] = useState([]);
+
+    const idArray = teamPlayer.map(player => player.id);
     const addToTeamEvent = (player) => {
-        const newTeam = [...teamPlayer, player];
-        setTeamPlayer(newTeam);
+        if (idArray.indexOf(player.id) === -1){
+            const newTeam = [...teamPlayer, player];
+            setTeamPlayer(newTeam);
+        }
+        else{
+            alert("You can't add one player two times");
+        }
     };
     return (
         <div className="display-Data">
